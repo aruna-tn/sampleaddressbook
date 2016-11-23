@@ -44,7 +44,7 @@ void QtAddressBookGUI::createWidgets()
     newContactButton = new QPushButton("New Contact");
     newContactButton-> setDefault(true);
     newContactButton->setAutoDefault(true);
-    newContactButton->setStyleSheet("background-color: yellow; color:white");
+    newContactButton->setStyleSheet("background-color: red; color:white");
 
     editContactButton = new QPushButton("Edit");
     editContactButton-> setDefault(true);
